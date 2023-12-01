@@ -143,26 +143,236 @@ var pizzaria = {
     categoria: 
     [
         {
+            id: 1,
             nome: "Pizzas Salgadas"
         },
         {
+            id: 2,
             nome: "Pizzas Doces"
         },
         {
+            id: 3,
             nome: "Bebidas"
         },
         {
+            id: 4,
             nome: "Sobremesas"
-        }
+        },
 
     ],
 
-    pizzaSalgadas:
+    pizzaSalgada:
     [
         {
             nome: "Muçarela",
             preco: "28,00",
+            descricao: "muçarela e tomate",
+            imagem: ""
 
+        },
+        {
+            nome: "Calabresa",
+            preco: "28,00",
+            descricao: "calabresa e cebola",
+            imagem: ""
+
+        },
+        {
+            nome: "Marguerita",
+            preco: "28,00",
+            descricao: "muçarela, tomate, majericão e parmesão",
+            imagem: ""
+
+        },
+        {
+            nome: "Napolitana",
+            preco: "28,00",
+            descricao: "muçarela, tomate e parmesão",
+            imagem: ""
+
+        },
+        {
+            nome: "Toscana",
+            preco: "28,00",
+            descricao: "muçarela e calabresa",
+            imagem: ""
+
+        },
+        {
+            nome: "Baiana",
+            preco: "28,00",
+            descricao: "calabresa, ovo, pimenta e cebola",
+            imagem: ""
+
+        },
+        {
+            nome: "Portuguesa",
+            preco: "28,00",
+            descricao: "muçarela, cebola, ovo e presunto",
+            imagem: ""
+
+        },
+        {
+            nome: "Frango com Catupiry",
+            preco: "28,00",
+            descricao: "frango e catupiry",
+            imagem: ""
+
+        },
+        {
+            nome: "Brócolis",
+            preco: "28,00",
+            descricao: "brócolis, alho frito, muçarela e bacon",
+            imagem: ""
+
+        },
+        {
+            nome: "Peruana",
+            preco: "28,00",
+            descricao: "atum, muçarela e cebola",
+            imagem: ""
+
+        },
+        {
+            nome: "Dois Queijos",
+            preco: "28,00",
+            descricao: "muçarela e catupiry",
+            imagem: ""
+
+        },
+        {
+            nome: "Siciliana",
+            preco: "28,00",
+            descricao: "presunto, champignon, catupiry e bacon",
+            imagem: ""
+
+        },
+        {
+            nome: "Três Queijos",
+            preco: "28,00",
+            descricao: "muçarela catupiry e provolone",
+            imagem: ""
+
+        },
+        {
+            nome: "Nordestina",
+            preco: "28,00",
+            descricao: "muçarela, cebola e carne seca",
+            imagem: ""
+
+        },
+        {
+            nome: "Quatro Queijos",
+            preco: "28,00",
+            descricao: "muçarela, catupiry, provolone e gorgonzola",
+            imagem: ""
+
+        },
+        {
+            nome: "Cheddar",
+            preco: "28,00",
+            descricao: "frango, cheddar e bacon",
+            imagem: ""
+
+        },
+        {
+            nome: "Bella Donna",
+            preco: "28,00",
+            descricao: "lombo canadense, catupiry, bacon e parmesão",
+            imagem: ""
+
+        },
+        {
+            nome: "Palmito",
+            preco: "28,00",
+            descricao: "palmito, muçarela, catupiry e tomate",
+            imagem: ""
+
+        },
+    ],
+
+    pizzaDoce:
+    [
+        {
+            nome: "M&M's",
+            preco: "28,00",
+            descricao: "chocolate e m&m's",
+            imagem: ""
+
+        },
+        {
+            nome: "Prestígio",
+            preco: "28,00",
+            descricao: "chocolate, coco ralado e leite condensado",
+            imagem: ""
+
+        },
+        {
+            nome: "Romeu e Julieta",
+            preco: "28,00",
+            descricao: "muçarela e goiabada",
+            imagem: ""
+
+        },
+        {
+            nome: "Morango",
+            preco: "28,00",
+            descricao: "chocolate, morango e leite condensado",
+            imagem: ""
+
+        },
+        {
+            nome: "Nutella",
+            preco: "28,00",
+            descricao: "nutella e morango",
+            imagem: ""
+
+        },
+        {
+            nome: "Brigadeiro",
+            preco: "28,00",
+            descricao: "chocolate e granulado",
+            imagem: ""
+
+        },
+        {
+            nome: "Chocolate duplo",
+            preco: "28,00",
+            descricao: "chocolate ao leite e chocolate branco",
+            imagem: ""
+
+        },
+        {
+            nome: "Banana",
+            preco: "28,00",
+            descricao: "banana, doce de leite e leite condensado",
+            imagem: ""
+
+        },
+        {
+            nome: "Chocolate com Banana",
+            preco: "28,00",
+            descricao: "chocolate, banana, morango e coco ralado",
+            imagem: ""
+
+        },
+    ],
+    esfiha:
+    [],
+    pastel:
+    [],
+    lanche:
+    [],
+    bebida:
+    [
+        {
+            nome: "Coca-cola",
+            preco: "12,00",
+            descricao: "garrafa 600ml"
         }
-    ]
+    ],
+}
+
+module.exports ={
+    pizzaria
 }
