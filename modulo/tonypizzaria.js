@@ -1,3 +1,5 @@
+const categorias = require('./categorias')
+
 var pizzaria = {
 
     contas:
@@ -164,331 +166,267 @@ var pizzaria = {
         },
        
     ],
-
-    categoria: 
-    [
-        {
-            id: 1,
-            nome: "Pizzas Salgadas"
-        },
-        {
-            id: 2,
-            nome: "Pizzas Doces"
-        },
-        {
-            id: 3,
-            nome: "Esfihas"
-        },
-        {
-            id: 4,
-            nome: "Pasteis"
-        },
-        {
-            id: 5,
-            nome: "Lanches"
-        },
-        {
-            id: 4,
-            nome: "Bebidas"
-        },
-
-    ],
-
-
-    esfiha:
-    [],
-    pastel:
-    [],
-    lanche:
-    [],
-    bebida:
-    [
-        {
-            id: 1,
-            nome: "Coca-cola",
-            preco: "6,50",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 2,
-            nome: "Guaraná",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 3,
-            nome: "Guaravita",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 4,
-            nome: "Itubaina",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 5,
-            nome: "Fanta",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 6,
-            nome: "Pepsi",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 7,
-            nome: "Chá gelado de pêssego",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 8,
-            nome: "Coca-cola",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 9,
-            nome: "Coca-cola",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        {
-            id: 10,
-            nome: "Coca-cola",
-            preco: "12,00",
-            descricao: "garrafa 600ml"
-        },
-        
-    ],
     produtos:
     [
         {
             id: 1,
             nome: "Muçarela",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "muçarela e tomate",
-            imagem: '../img/muçarela.jpg',
+            imagem: 'muçarela.png',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 2,
             nome: "Calabresa",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "calabresa e cebola",
-            imagem: '../img/calabresa.png'
+            imagem: 'calabresa.png',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 3,
             nome: "Marguerita",
-            preco: "32,00",
+            preco: 32.00,
             descricao: "muçarela, tomate, majericão e parmesão",
-            imagem: '../margherita.jpg'
+            imagem: 'margherita.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 4,
             nome: "Napolitana",
-            preco: "32,00",
+            preco: 32.00,
             descricao: "muçarela, tomate e parmesão",
-            imagem: '../img/napolitana.webp'
+            imagem: 'napolitana.webp',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 5,
             nome: "Toscana",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "muçarela e calabresa",
-            imagem: '../img/toscana.jpg'
+            imagem: 'toscana.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 6,
             nome: "Baiana",
-            preco: "29,90",
+            preco: 29.90,
             descricao: "calabresa, ovo, pimenta e cebola",
-            imagem: '../img/baiana.jpg'
+            imagem: 'baiana.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 7,
             nome: "Portuguesa",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "muçarela, cebola, ovo e presunto",
-            imagem: '../img/portuguesa.jfif'
+            imagem: 'portuguesa.jfif',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 8,
             nome: "Frango com Catupiry",
-            preco: "30,00",
+            preco: 30.00,
             descricao: "frango e catupiry",
-            imagem: '../img/frangocatupiry'
+            imagem: 'frangocatupiry.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 9,
             nome: "Brócolis",
-            preco: "32,00",
+            preco: 32.00,
             descricao: "brócolis, alho frito, muçarela e bacon",
-            imagem: '../img/brocolis.webp'
+            imagem: 'brocolis.webp',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 10,
             nome: "Peruana",
-            preco: "35,00",
+            preco: 35.00,
             descricao: "atum, muçarela e cebola",
-            imagem: '../img/peruana.jpg'
+            imagem: 'peruana.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 11,
             nome: "Dois Queijos",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "muçarela e catupiry",
-            imagem: '../img/doisqueijos.jpg'
+            imagem: 'doisqueijos.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 12,
             nome: "Siciliana",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "presunto, champignon, catupiry e bacon",
-            imagem: '../img/siciliana.jpeg'
+            imagem: 'siciliana.jpeg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 13,
             nome: "Três Queijos",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "muçarela catupiry e provolone",
-            imagem: '../tresqueijos.jpg'
+            imagem: 'tresqueijos.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 14,
             nome: "Nordestina",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "muçarela, cebola e carne seca",
-            imagem: '../img/nordestina.jpg'
+            imagem: 'nordestina.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 15,
             nome: "Quatro Queijos",
-            preco: "38,00",
+            preco: 38.00,
             descricao: "muçarela, catupiry, provolone e gorgonzola",
-            imagem: '../qutroqueijos.webp'
+            imagem: 'quatroqueijos.webp',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 16,
             nome: "Cheddar",
-            preco: "28,00",
+            preco: 38.00,
             descricao: "frango, cheddar e bacon",
-            imagem: '../img/cheddar.png'
+            imagem: 'cheddar.png',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 17,
             nome: "Bella Donna",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "lombo canadense, catupiry, bacon e parmesão",
-            imagem: '../img/belladonna.jpg'
+            imagem: 'belladonna.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 18,
             nome: "Palmito",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "palmito, muçarela, catupiry e tomate",
-            imagem: '../img/palmito.jpg'
+            imagem: 'palmito.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 19,
             nome: "M&M's",
-            preco: "28,00",
+            preco: 25.00,
             descricao: "chocolate e m&m's",
-            imagem: ""
+            imagem: 'pizzamm.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 20,
             nome: "Prestígio",
-            preco: "28,00",
+            preco: 30.00,
             descricao: "chocolate, coco ralado e leite condensado",
-            imagem: ""
+            imagem: 'prestigio.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 21,
             nome: "Romeu e Julieta",
-            preco: "28,00",
+            preco: 27.00,
             descricao: "muçarela e goiabada",
-            imagem: ""
+            imagem: 'romeuejulieta.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 22,
             nome: "Morango",
-            preco: "28,00",
+            preco: 28.00,
             descricao: "chocolate, morango e leite condensado",
-            imagem: ""
+            imagem: 'morango.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 23,
             nome: "Nutella",
-            preco: "28,00",
+            preco: 26.00,
             descricao: "nutella e morango",
-            imagem: ""
+            imagem: 'nutella.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 24,
             nome: "Brigadeiro",
-            preco: "28,00",
+            preco: 29.50,
             descricao: "chocolate e granulado",
-            imagem: ""
+            imagem: 'brigadeiro.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 25,
             nome: "Chocolate duplo",
-            preco: "28,00",
+            preco: 25.00,
             descricao: "chocolate ao leite e chocolate branco",
-            imagem: ""
+            imagem: 'chocolateduplo.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 26,
             nome: "Banana",
-            preco: "28,00",
+            preco: 24.50,
             descricao: "banana, doce de leite e leite condensado",
-            imagem: ""
+            imagem: 'banana.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
         {
             id: 27,
             nome: "Chocolate com Banana",
-            preco: "28,00",
+            preco: 25.50,
             descricao: "chocolate, banana, morango e coco ralado",
-            imagem: ""
+            imagem: 'bananachocolate.jpg',
+            categoria: categorias.produtoCategoria.listaCategoria[0].nome
 
         },
+        {
+            id: 28,
+            nome: "Coca-cola",
+            preco: 8.00,
+            descricao: "Garrafa 2L",
+            imagem: '',
+            categoria: categorias.produtoCategoria.listaCategoria[1].nome
+
+        },
+
+
     ]
+    
 }
+
 
 module.exports ={
     pizzaria
 }
-
-
-console.log(pizzaria.categoria[1].nome)
